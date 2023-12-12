@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="nav" id="menu-icon">
+        <a href="#" class="logo">
+            <img src="img/logo white.png" alt="">
+        </a>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+                <select class="option">
+                    <option selected><li><a href="#gallery">Anime</a></li></option>
+                    <option value="1"><li><a href="#ongo">On-Going</a></li></option>
+                    <option value="2"><li><a href="#comp">Complete</a></li></option>
+                </select>
+            <li><a href="#contact">Contact</a></li>
+            <button type="button" class="btn btn-login">Login</button>
+            <button type="button" class="btn btn-gets">Get Started</button>
+        </ul>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Ciyawnime is here <br> for those of you who <br> want to watch anime</h1>
+            <p>Watch your favorite anime here :3</p>
+            <form class="src" role="search">
+                </i><input class="srcin" type="search" placeholder="Your fav anime...">
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About this site</h2>
+            <p>Ciyawnime - Streaming anime site with Indonesian subtitle<br>
+                resolution 240p, 360p, 480p, 720p, 1080p & MP4 format.
+            </p>
+        </div>
+    </section>
+
+    <section class="sponsor">
+        <div class="sponsor-text">
+            <span>Trusted by 10,000+ japan companies</span><br>
+            <img src="https://www.nhk.or.jp/j-melo/nhkworld/images_new_top/nhkworld_japan_logo.png" alt="NHK">
+            <img src="https://logodownload.org/wp-content/uploads/2017/12/tv-tokyo-logo-1.png" alt="Tokyo">
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Top anime this week!</h2>
+        <p>Updated twice a day.</p>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Poster</th>
+                <th>Title</th>
+                <th>Score</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td><img src="https://cdn.myanimelist.net/images/anime/1015/138006.jpg" alt="Sousou no Frieren"></td>
+                <td>Sousou no Frieren
+                    <p>TV (28 eps)<br>
+                        Sep 2023 -</p>
+                </td>
+                <td>9.12 <i class='bx bxs-star'></i> </td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td><img src="https://animehunch.com/wp-content/uploads/2023/03/Jujutsu-Kaisen-Season-2-KV.jpg" alt="Jujutsu Kaisen S2"></td>
+                <td>Jujutsu Kaisen Season 2
+                    <p>TV (23 eps)<br>
+                        Jul 2023 -</p>
+                </td>
+                <td>8.89 <i class='bx bxs-star'></i></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td><img src="https://images.postertrail.com/posters/large/0cso1fsze7gpcf6to4tmg5.jpg" alt="Kusuriya no Hitorigoto"></td>
+                <td>Kusuriya no Hitorigoto
+                    <p>TV (24 eps)<br>
+                        Oct 2023 -</p>
+                </td>
+                <td>8.72 <i class='bx bxs-star'></i></td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td><img src="https://es.web.img3.acsta.net/pictures/16/02/03/17/11/571106.jpg" alt="One Piece"></td>
+                <td>One Piece
+                    <p>TV (? eps)<br>
+                        Oct 1999 -</p>
+                </td>
+                <td>8.71 <i class='bx bxs-star'></i></td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td><img src="https://news.cdn.nimg.jp/articles/images/13601103/beaa2ee1a14e2479390227bcf3cd9f4349862d05d0a350af86a5c162c7a5568e5023559f2adf2da7eb79fe578a78c68cb90583528e2ccbf21e7b72c1d72ec91f" alt="Spy x Family S2"></td>
+                <td>Spy x Family Season 2
+                    <p>TV (12 eps)<br>
+                        Oct 2023 -</p>
+                </td>
+                <td>8.57 <i class='bx bxs-star'></i></td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td><img src="https://img.gokucdn.com/images/poster/021ca452bd8b38c15f2e3c60e4a8c2ca.jpg" alt="Tokyo Revengers: Tenjiku-hen"></td>
+                <td>Tokyo Revengers: Tenjiku-hen
+                    <p>TV (13 eps)<br>
+                        Oct 2023 -</p>
+                </td>
+                <td>8.40 <i class='bx bxs-star'></i></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="ongo" id="ongo">
+        <div class="ongo-text">
+            <h2>On-Going</h2>
+        </div>
+        <table>
+            <tr>
+                <td><iframe width="300px" height="150px" src="https://www.youtube.com/embed/QnAsVdzXCYQ?si=TLYbWRwzTWV58jSC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                <td>A Playthrough of a Certain Dude's VRMMO Life
+                    <p>Eps 10</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><iframe width="300px" height="150px" src="https://www.youtube.com/embed/dmTDTXs-cAo?si=iBaG5HtSRE2nyIiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                <td>Protocol: Rain
+                    <p>Eps 10</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td><iframe width="300px" height="150px" src="https://www.youtube.com/embed/pskc3bLEuRQ?si=ULNvdgyupq8RbHGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></td>
+                <td>Stardust Telepath
+                    <p>Eps 9</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="comp" id="comp">
+        <div class="comp-text">
+            <h2>Complete</h2>
+        </div>
+        <table class="link">
+            <tr>
+                <td><img src="https://pics.filmaffinity.com/Mob_Psycho_100_TV_Series-976847833-large.jpg" alt=""></td>
+                <td>Mob Psycho 100 [end] <br>
+                    <a href="https://youtu.be/jeZJcHwWB5c?si=v4A01gexkgjlr7WV" target="_blank">watch eps 1 here</a>
+                </td>
+            </tr>
+            
+            <tr>
+                <td><img src="https://m.media-amazon.com/images/M/MV5BMmFlNGVkYmUtOGJiZi00NjM3LTk4NGEtNGJiNGVhNWQ5NWIxXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg" alt=""></td>
+                <td>Rent a Girlfriend [end] <br>
+                    <a href="https://youtu.be/Qqpkuzcs-88?si=-8zZ7yHT5VFJYOGv" target="_blank">watch eps 1 here</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td><img src="https://images-na.ssl-images-amazon.com/images/I/710PUtnb5pL._AC_SL1001_.jpg" alt=""></td>
+                <td>Assasination Classroom [end] <br>
+                    <a href="https://youtu.be/AJVyrToCV-U?si=OyCDIZ-Kv8V4AWGN" target="_blank">watch eps 1 here</a>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact Us</h2>
+                <p>If you have any problem, let us know!</p>
+            </div>
+            <div class="frm">
+                <form>
+                    <div class="f1">
+                        <label>Name </label>
+                        <input type="text" placeholder="Inumaki Toge">
+                        <br>
+
+                        <label>Email </label>
+                        <input type="email" placeholder="season2@jjk.com">
+                        <br>
+
+                        <label>Message</label>
+                        <br>
+                        <textarea cols="30" rows="4" placeholder="Please type your message here..."></textarea>
+                        <br>
+
+                        <input type="submit" value="Send Message">
+                    </div>
+                </form>
+            </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-text">
+            <p>ciyawnime@gmail.com</p>
+            <p>(+62)812-9533-1710</p>
+            <br>
+            <a href="https://maps.app.goo.gl/C9b4s2N21EJgms9H6" target="_blank"><i class='bx bxs-map'></i>Cibinong City Mall Lantai 2 <br>
+                Jl. Tegar Beriman No. 1 <br>
+                Cibinong - Bogor</a>
+        </div>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-tiktok' ></i></a>
+        </div>
+    </section>
+</body>
+</html>
